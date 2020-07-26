@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/main-tut.css" />
+		<script src="js/jquery-3.5.1.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<title>Working with Containers</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!-- Control the column width, and how they should appear on different devices. -->
+			<div class="row" style="background-color: #DEDEDE">
+				<div class="col-*-*" style="background-color: #999">A column</div>
+				<div class="col-*-*" style="background-color: #999">A column</div>
+			</div>
+			<div class="row" style="background-color: #DEDEDE">
+				<div class="col-*-*" style="background-color: #999">A column</div>
+				<div class="col-*-*" style="background-color: #999">A column</div>
+				<div class="col-*-*" style="background-color: #999">A column</div>
+			</div>
+			
+			<!-- Or let Bootstrap automatically handle the layout -->
+			<div class="row" style="background-color: #DEDEDE">
+				<div class="col-sm-3" style="background-color: #999">A column</div>
+				<div class="col-sm-3" style="background-color: #999">A column</div>
+				<div class="col-sm-3" style="background-color: #999">A column</div>
+			</div>
+			
+			<!-- Two Unequal Responsive Columns -->
+			<div class="row">
+				<div class="col-sm-4 text-white" style="background-color: #ff5e00;">.col-sm-4</div>
+				<div class="col-sm-8 text-white" style="background-color: #6f4dfc;">.col-sm-8</div>
+			</div>
+		</div>
+	</body>
 </html>
