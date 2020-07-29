@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/main-tut.css" />
+		<script src="../js/jquery-3.5.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<title>Working with Dropdowns (Item Text)</title>
+	</head>
+	
+	<body>
+        <br><br>
+		<div class="container">
+            <h2>Dropdowns (Item Text)</h2>
+            <p>
+                The .dropdown-item-text class is used to add plain text to a dropdown, or used on links for default link styling.
+            </p>
+			<div class="dropdown">
+                <button type="button" 
+                        class="btn btn-primary dropdown-toggle"
+                        data-toggle="dropdown">
+                    Dropdown Button
+                </button>
+				<div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item-text" href="#">Text Link</a>
+                    <span class="dropdown-item-text">Just Text</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

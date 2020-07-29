@@ -1,3 +1,7 @@
 body {
     font-family: "SF Pro Text", sans-serif;
 }
+
+#gradientPB {
+    background-image: linear-gradient(to bottom right, rgb(0, 132, 255), rgb(93, 217, 255));
+}

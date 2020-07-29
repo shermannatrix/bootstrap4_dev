@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/main-tut.css" />
+		<script src="../js/jquery-3.5.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<title>Working with Cards (Image Overlay)</title>
+	</head>
+	
+	<body>
+		<div class="container">
+			<h2>Cards (Image Overlay)</h2>
+			<p>
+				Turn an image into a card background and use .card-img-overlay to overlay the card's text:
+			</p>
+			<div class="card img-fluid" style="width: 500px;">
+				<img class="card-img-top" src="../img/img_avatar1.png" alt="Card image" style="width: 100%;" />
+				<div class="card-img-overlay">
+					<h4 class="card-title">Card title</h4>
+					<p class="card-text">Some example text. Some example text. John Doe is an architect and engineer.</p>
+					<a href="#" class="btn btn-primary stretched-link">See Profile</a>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

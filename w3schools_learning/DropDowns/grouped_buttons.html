@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/main-tut.css" />
+		<script src="../js/jquery-3.5.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<title>Working with Dropdowns (Nested Button Groups)</title>
+	</head>
+	
+	<body>
+        <br><br>
+		<div class="container">
+            <h2>Dropdowns (Nested Button Groups)</h2>
+            <p>
+                Nest button groups to create dropdown menus:
+            </p>
+			<div class="btn-group">
+                <button type="button" class="btn btn-primary">Apple</button>
+                <button type="button" class="btn btn-primary">Samsung</button>
+                <div class="btn-group">
+                    <button type="button" 
+                        class="btn btn-primary dropdown-toggle"
+                        data-toggle="dropdown">
+                        Sony
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Tablet</a>
+                        <a class="dropdown-item" href="#">Smartphone</a>
+                    </div>
+                </div>
+            </div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/main-tut.css" />
+		<script src="../js/jquery-3.5.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<title>Working with Forms (Inline Form)</title>
+	</head>
+	
+    <body>
+       <div class="container">
+           <h2>Inline Form</h2>
+           <p>
+               Make the viewport larger than 576px wide to see that all of the form elements are 
+               inline and left-aligned. On small screens, the form groups will stack horizontally.
+            </p>
+           <form class="form-inline" action="#">
+               <label for="email2" class="mb-2 mr-sm-2">Email:</label>
+               <input type="text" class="form-control mb-2 mr-sm-2" id="email2" 
+                    placeholder="Enter email" name="email">
+                <label for="pwd2" class="mb-2 mr-sm-2">Password:</label>
+                <input type="text" class="form-control mb-2 mr-sm-2" id="pwd2" 
+                    placeholder="Enter password" name="pwd">
+                <div class="form-check mb-2 mr-sm-2">
+                    <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" name="remember"> Remember Me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+           </form>
+       </div> 
+	</body>
+</html>

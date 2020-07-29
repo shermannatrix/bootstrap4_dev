@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/main-tut.css" />
+		<script src="../js/jquery-3.5.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<title>Working with Cards (Card titles, text, and links)</title>
+	</head>
+	
+	<body>
+		<div class="container">
+			<h2>Cards (Card titles, text, and links)</h2>
+			<p>
+				Use .card-titles to add card titles to any heading element. The .card-text class is used to remove bottom
+				margins for a p element if it is the last child (or the only one) in card-body. The .card-link class adds a
+				blue color to any link, and a hover effect.
+			</p>
+			<div class="card bg-primary text-white">
+				<div class="card-body">
+					<h4 class="card-title">Card title</h4>
+					<p class="card-text">Some example text. Some example text.</p>
+					<a href="#" class="card-link">Card link</a>
+					<a href="#" class="card-link">Another link</a>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
