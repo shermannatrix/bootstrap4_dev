@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../css/bootstrap.css" />
+        <link rel="stylesheet" href="../css/main-tut.css" />
+        <script src="../js/jquery-3.5.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
+        <title>Working with Input Groups (Basics)</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Input Groups (Basics)</h2>
+            <p>
+                The .input-group class is a container to enhance an input by adding an icon, text or a 
+                button in front (.input-group-prepend) or behind (.input-group-append) the input field 
+                as a "help text".
+            </p>
+            <p>
+                Use the .input-group-text class to style the specified help text.
+            </p>
+            <form action="#">
+                <div class="input-group mb-3 input-group-sm">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Small</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+            </form>
+            <form action="#">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Default</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+            </form>
+            <form action="#">
+                <div class="input-group mb-3 input-group-lg">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Large</span>
+                    </div>
+                    <input type="text" class="form-control">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

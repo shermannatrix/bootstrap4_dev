@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../css/bootstrap.css" />
+        <link rel="stylesheet" href="../css/main-tut.css" />
+        <script src="../js/jquery-3.5.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="../js/bootstrap.js"></script>
+        <title>Working with Input Groups (with Labels)</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Input Groups (with Labels)</h2>
+            <p>
+                Put labels outside of the input group, and remember that the value of the for attribute 
+                should match the id of the input.
+            </p>
+            <p>
+                Click on he label and it will bring focus to the input:
+            </p>
+            <form>
+                <label for="demo">Write your email here:</label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Email" id="demo" name="email">
+                    <div class="input-group-append">
+                        <span class="input-group-text">@example.com</span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
